@@ -1,0 +1,365 @@
+@media only screen and (min-width: 1200px) and (max-width: 1400px){
+
+}
+
+
+@media only screen and (max-width: 1199px){
+    .heroarea .title {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .testimonials .item .review .right .text {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .checkout .left-area .checkoutform .payment-information .pm-list li{
+        margin-bottom: 15px;
+    }
+    .checkout .right-area .footer {
+        display: flow-root;
+    }
+
+}
+
+
+@media only screen and (max-width: 991px) {
+    .navigation{
+        background: #242424;
+        padding: 8px 0px 8px;
+    }
+    .navigation .navbar .navbar-brand img{
+        max-width: 130px;
+    }
+    .navigation .navbar #mainmenu ul .nav-item .nav-link {
+        padding: 9px 15px 8px;
+    }
+    .navigation .navbar #mainmenu ul{
+        padding-top: 10px;
+    }
+    .navigation .navbar #mainmenu .contact-btn{
+        display: inline-block;
+    }
+    .navigation .navbar #mainmenu .contact-btn{
+        margin-left: 15px;
+        margin-top: 8px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 40px;
+        font-weight: 700;
+        width: 120px;
+        height: 40px;
+    }
+    .heroarea .right-area .img{
+        margin-top: 50px;
+    }
+    .heroarea .right-area.align-self-center {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .heroarea .left-area{
+        text-align: center;
+    }
+    .heroarea .left-area .title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .heroarea {
+        padding: 158px 0px 260px;
+    }
+    .about-info-top .left-content{
+        margin-top: 30px;
+    }
+    .about-slider .right-content-area{
+        margin-top: 30px;
+    }
+
+    .footer-area {
+        padding: 68px 0px 0px;
+    }
+    .copyright-area .left-area{
+        text-align: center;
+    }
+    .footer-area .copyright-area .right-atea{
+        text-align: center;
+        margin-top: 5px;
+    }
+    .footer-area .footer-top-linka .link-widget{
+        margin-top: 24px;
+    }
+    .blog-aside{
+        margin-top: 70px;
+    }
+    .checkout .right-area{
+        margin-top: 50px;
+    }
+    .checkout .right-area .footer{
+        display: flex;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .heroarea .left-area .title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .heroarea .sub-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .section-title .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .section-title .sub-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .service .item .single-service .title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .packages .single-packages .img-area img{
+        width: 100%;
+    }
+    .gallery .owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev, 
+    .gallery .owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next,
+    .testimonials .owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev, 
+    .testimonials .owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next
+    {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .testimonials .item .review .right .name {
+        font-size: 20px;
+        line-height: 27px;
+        margin: 32px 0px 0px;
+    }
+    .testimonials .item .review .right .text {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .contact-us .right-area{
+        margin-top: 50px;
+    }
+    .gallery .owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev, 
+    .gallery .owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next {
+        bottom: -90px;
+    }
+    .gallery {
+        margin-bottom: 180px;
+        
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 575px) {
+    .heroarea .left-area .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .heroarea {
+        padding: 140px 0px 240px;
+    }
+    .service .owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev{
+        left: 50%;
+        margin-left: -45px;
+        top:auto;
+        bottom: -60px;
+    }
+    .service .owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next{
+        right: 50%;
+        margin-right: -45px;
+        top:auto;
+        bottom: -60px;
+    }
+    .service .item .single-service .icon img{
+        height: 60px;
+    }
+    .service {
+        margin-top: -115px;
+    }
+    .service .item .single-service .title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .about {
+        padding: 160px 0px 90px;
+    }
+    .heroarea {
+        padding: 140px 0px 205px;
+    }
+    .navigation {
+        padding: 8px 15px 8px;
+    }
+    .navigation .navbar #mainmenu ul .nav-item .nav-link {
+        padding: 9px 0px 8px;
+    }
+    .navigation .navbar #mainmenu .contact-btn{
+        margin-left: 0px;
+    }
+    .my-breadcrumb .heading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .packages .single-packages .img-area .overlay .name {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .blog-details .blog-content .content .title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .blog-details .blog-content .content .title {
+        font-size: 21px;
+        line-height: 31px;
+    }
+    .my-breadcrumb .heading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .blog-details .comments .title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .blog-details .write-comment .title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .blog-details .blog-aside .categori .title,
+    .blog-details .blog-aside .recent-post-widget .title,
+    .blog-details .blog-aside .archives .title,
+    .blog-details .blog-aside .tags .title
+     {
+        font-size: 21px;
+        line-height: 31px;
+    }
+    .blog-details .blog-content .content .tag-social-link{
+        display: flow-root;
+    }
+    .blog-details .blog-content .content .tag-social-link .social-links{
+        margin-top: 15px;
+    }
+    .contact-us .contact-section-title .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .contact-us .contact-section-title .subtitle {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .contact-us .right-area .top-content .title {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .contact-us .right-area .social-links ul li a {
+        font-size: 14px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .footer-area .copyright-area .left-area p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .footer-area .copyright-area .right-atea {
+        margin-top: 15px;
+    }
+    .checkout .left-area .checkoutform .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .checkout .left-area .checkoutform .payment-information .pm-list li img{
+         width: 60px;
+    }
+    .section-title .title {
+
+        font-size: 30px;
+        line-height: 50px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .blog .blog-box{
+        display: flow-root!important
+    }
+    .blog .blog-box .blog-images{
+        width: 100%;
+        height: inherit;
+    }
+   
+    .blog .blog-box .blog-images .img{
+        width: 100%;
+        height: inherit;
+    }
+    .blog .blog-box .blog-images .img img{
+        width: 100%;
+        height: inherit;
+    }
+    .blog .blog-box .blog-details {
+        padding: 17px 0px 15px;
+    }
+    .blog .blog-box .details {
+        padding: 5px 0px 5px;
+    }
+
+}
+@media only screen and (max-width: 450px) {
+    .heroarea .right-area .img .video-icon {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+    }
+    .checkout .right-area .footer .right .price {
+        font-size: 24px;
+    }
+}
+
+
+/* mobile tablet layout 414px */
+@media only screen and (max-width: 414px) {
+
+    .footer-area .footer-top-linka .link-widget .title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 390px) {
+    .contact-us .right-area .contact-info{
+        display: flow-root!important;
+        text-align: center;
+    }
+    .contact-us .right-area .contact-info .left {
+        margin-bottom: 20px;
+    }
+    .contact-us .right-area .contact-info .left .icon{
+        display: inline-block;
+        margin-right: 0px;
+    }
+    .checkout .right-area .body-area .box {
+        display: flow-root;
+    }
+    .checkout .right-area .body-area .box .right .title{
+        margin-top: 10px;
+    }
+
+
+
+
+}
