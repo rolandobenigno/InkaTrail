@@ -18,12 +18,12 @@ public class ReservaController {
     private Negocio negocio;
     Logger logger = LoggerFactory.getLogger(RestController.class);
 
-    @GetMapping("/reservas")
+    @GetMapping("/listareservas")
     public List<Reserva> obtenerReservas(){
         return negocio.obtenerReservas();
     }
 
-    @PostMapping("/reserva")
+    @PostMapping("/creareserva")
     public Reserva crearReserva(@RequestBody Reserva reserva){
         Reserva p;
         logger.debug("Reserva generada");
@@ -31,7 +31,7 @@ public class ReservaController {
         return p;
     }
 
-    @PutMapping("/producto")
+    @PutMapping("/actualizareserva")
     public Reserva actualizarReserva(@RequestBody Reserva reserva){
         Reserva p;
         try {
@@ -45,7 +45,7 @@ public class ReservaController {
         return p;
     }
 
-    @DeleteMapping("/reserva/{codigo}")
+    @DeleteMapping("/anulareserva/{codigo}")
     public Reserva anularReserva(@PathVariable(value = "codigo") Long codigo){
         logger.debug("Anulando reserva");
         try {
@@ -56,7 +56,7 @@ public class ReservaController {
         }
     }
 
-    @GetMapping("/producto/{codigo}")
+    @GetMapping("/buscareserva/{codigo}")
     public Reserva obtenerEntidad(@PathVariable(value = "codigo") Long codigo){
         Reserva p;
         try {
