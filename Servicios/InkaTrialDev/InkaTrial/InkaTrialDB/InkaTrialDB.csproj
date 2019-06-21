@@ -31,7 +31,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,10 +48,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contexto\InkaTrialDB.cs" />
+    <Compile Include="Migrations\201906212140398_CreandoDB.cs" />
+    <Compile Include="Migrations\201906212140398_CreandoDB.Designer.cs">
+      <DependentUpon>201906212140398_CreandoDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906212151400_Destino.cs" />
+    <Compile Include="Migrations\201906212151400_Destino.Designer.cs">
+      <DependentUpon>201906212151400_Destino.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906212203265_ActualizandoPrecios.cs" />
+    <Compile Include="Migrations\201906212203265_ActualizandoPrecios.Designer.cs">
+      <DependentUpon>201906212203265_ActualizandoPrecios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Contexto\" />
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ModelEntity\ModelEntity.csproj">
+      <Project>{ad4f215c-2348-42a8-9f47-a763acceb283}</Project>
+      <Name>ModelEntity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201906212140398_CreandoDB.resx">
+      <DependentUpon>201906212140398_CreandoDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906212151400_Destino.resx">
+      <DependentUpon>201906212151400_Destino.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906212203265_ActualizandoPrecios.resx">
+      <DependentUpon>201906212203265_ActualizandoPrecios.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
