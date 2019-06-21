@@ -25,5 +25,14 @@ namespace Negocio
         {
             throw new NotImplementedException();
         }
+
+        public async Task<GenericResponse> GetTest()
+        {
+            GenericResponse response = new GenericResponse();
+            response.messageResponse = "Bienvenido";
+
+
+            return response;
+        }
     }
 }

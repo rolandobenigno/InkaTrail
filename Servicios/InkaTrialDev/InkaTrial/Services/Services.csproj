@@ -58,6 +58,9 @@
     <Reference Include="Ninject.Web.WebApi, Version=3.3.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
       <HintPath>..\packages\Ninject.Web.WebApi.3.3.0\lib\net45\Ninject.Web.WebApi.dll</HintPath>
     </Reference>
+    <Reference Include="Swashbuckle.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd1bb07a5ac7c7bc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Swashbuckle.Core.5.6.0\lib\net40\Swashbuckle.Core.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -142,6 +145,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\Ninject.Web.Common.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\HelpPage\ApiDescriptionExtensions.cs" />
     <Compile Include="Areas\HelpPage\App_Start\HelpPageConfig.cs" />
@@ -171,6 +175,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\CotizacionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -263,6 +268,14 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ModelComun\ModelComun.csproj">
+      <Project>{2a926ce6-f4c4-4fc7-b903-86aec3d25702}</Project>
+      <Name>ModelComun</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModelEntity\ModelEntity.csproj">
+      <Project>{ad4f215c-2348-42a8-9f47-a763acceb283}</Project>
+      <Name>ModelEntity</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Negocio\Negocio.csproj">
       <Project>{b6db7e4b-3f08-43f2-b2f3-a9483b4e599b}</Project>
       <Name>Negocio</Name>
