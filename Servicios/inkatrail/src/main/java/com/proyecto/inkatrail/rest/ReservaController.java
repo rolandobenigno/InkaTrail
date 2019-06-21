@@ -26,7 +26,7 @@ public class ReservaController {
     @PostMapping("/creareserva")
     public Reserva crearReserva(@RequestBody Reserva reserva){
         Reserva p;
-        logger.debug("Reserva generada");
+        logger.debug("Reserva generada con exito");
         p = negocio.crearReserva(reserva);
         return p;
     }
