@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Negocio
 {
-    public class CotizacionNegocio : CotizacionRepositorio
+    public class CotizacionNegocio : ICotizacionRepositorio
     {
         public Task<GenericResponse> Cotizacion(Cotizacion cotizacion)
         {

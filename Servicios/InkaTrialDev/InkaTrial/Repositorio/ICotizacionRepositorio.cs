@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Repositorio
 {
-    public interface CotizacionRepositorio
+    public interface ICotizacionRepositorio
     {
         Task<GenericResponse> CreateCotizacion(Cotizacion cotizacion);
         Task<GenericResponse> DeleteCotizacion(int cotizacion_id);
