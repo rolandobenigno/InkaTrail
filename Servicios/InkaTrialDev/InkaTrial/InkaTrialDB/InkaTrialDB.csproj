@@ -61,6 +61,14 @@
     <Compile Include="Migrations\201906212203265_ActualizandoPrecios.Designer.cs">
       <DependentUpon>201906212203265_ActualizandoPrecios.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201906212209243_OK.cs" />
+    <Compile Include="Migrations\201906212209243_OK.Designer.cs">
+      <DependentUpon>201906212209243_OK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906212211530_OK1.cs" />
+    <Compile Include="Migrations\201906212211530_OK1.Designer.cs">
+      <DependentUpon>201906212211530_OK1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -83,6 +91,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201906212203265_ActualizandoPrecios.resx">
       <DependentUpon>201906212203265_ActualizandoPrecios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906212209243_OK.resx">
+      <DependentUpon>201906212209243_OK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906212211530_OK1.resx">
+      <DependentUpon>201906212211530_OK1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,29 @@
+﻿using ModelComun.Comun;
+using ModelEntity.Sale;
+using Repositorio;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Negocio
+{
+    public class CotizacionNegocio : CotizacionRepositorio
+    {
+        public Task<GenericResponse> Cotizacion(Cotizacion cotizacion)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<GenericResponse> CreateCotizacion(Cotizacion cotizacion)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<GenericResponse> DeleteCotizacion(int cotizacion_id)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}

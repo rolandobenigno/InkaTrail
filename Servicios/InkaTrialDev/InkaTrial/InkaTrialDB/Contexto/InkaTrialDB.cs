@@ -1,4 +1,5 @@
 ﻿using ModelEntity.Main;
+using ModelEntity.Sale;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -21,6 +22,7 @@ namespace InkaTrialDB.Contexto
         public DbSet<Cliente> Cliente { get; set; }
         public DbSet<Destino> Destino { get; set; }
         public DbSet<PrecioPorDestino> PrecioPorDestino { get; set; }
+        public DbSet<Cotizacion> Cotizacion { get; set; }
 
         #region Fluent Api
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

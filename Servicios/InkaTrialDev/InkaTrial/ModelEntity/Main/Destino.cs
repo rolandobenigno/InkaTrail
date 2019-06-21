@@ -12,6 +12,6 @@ namespace ModelEntity.Main
     {
         public string Nombre {get; set; }
         public string Ubigeo { get; set; }
-
+        public ICollection<PrecioPorDestino> PrecioPorDestino { get; set; }
     }
 }

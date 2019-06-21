@@ -17,5 +17,6 @@ namespace ModelEntity.Main
         public decimal PecioUnitarioAdulto { get; set; }
 
         public decimal PecioUnitarioMenorEdad { get; set; }
+        
     }
 }
