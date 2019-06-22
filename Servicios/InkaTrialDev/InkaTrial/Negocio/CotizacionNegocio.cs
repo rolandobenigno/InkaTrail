@@ -29,9 +29,6 @@ namespace Negocio
             response.messageResponse = "El monto a pagar es: "  + montoPagar + " SOLES";
 
 
-
-
-
             return response;
         }
 

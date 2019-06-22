@@ -20,7 +20,6 @@ namespace ServiciosRest.Controllers
         }
 
         [HttpPost]
-        //[Route("{id:int}/InvoiceSend")]
         public async Task<GenericResponse> CalcularMontoPagar([FromBody]CotizacionRequest cotizacionRequest)
         //public async Task<GenericResponse> Post(int inte)
         {
@@ -29,8 +28,6 @@ namespace ServiciosRest.Controllers
 
             return response;
         }
-
-        
 
     }
 }
