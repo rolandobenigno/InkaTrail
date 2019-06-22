@@ -12,10 +12,22 @@ namespace Negocio
     public class CotizacionNegocio : ICotizacionRepositorio
     {
 
-        public async Task<GenericResponse> CalcularMontoPagar(int destino_Id, int cantidadAdultos, int cantidadMenoresEdad)
+        public async Task<GenericResponse> CalcularMontoPagar(int destino_Id, int cantidadAdultos, int cantidadMenoresEdad, bool aplicaDesc)
         {
             GenericResponse response = new GenericResponse();
             double precioBase = 60D;
+
+            if (cantidadAdultos == 0 )
+            {
+                response.response = false;
+                response.messageResponse = "La cantidad de adultos debe ser minimo 1";
+            }
+
+           
+
+            double montoPagar = (precioBase * cantidadAdultos) + (precioBase * cantidadMenoresEdad);
+            response.messageResponse = "El monto a pagar es: "  + montoPagar + " SOLES";
+
 
 
 
