@@ -23,10 +23,17 @@ namespace Negocio
                 response.messageResponse = "La cantidad de adultos debe ser minimo 1";
             }
 
-           
+            double montoPagar;
+            if (aplicaDesc)
+            {
+                montoPagar = ((precioBase * cantidadAdultos) + (precioBase * cantidadMenoresEdad)) / 1.20;
+            }
+            else
+            {
+                montoPagar = (precioBase * cantidadAdultos) + (precioBase * cantidadMenoresEdad);
+            }
 
-            double montoPagar = (precioBase * cantidadAdultos) + (precioBase * cantidadMenoresEdad);
-            response.messageResponse = "El monto a pagar es: "  + montoPagar + " SOLES";
+            response.messageResponse = "El monto a pagar es: " + montoPagar + " SOLES";
 
 
             return response;
