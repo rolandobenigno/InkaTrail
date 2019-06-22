@@ -28,7 +28,26 @@ namespace Services.Controllers
         //public async Task<GenericResponse> Post(int inte)
         {
             GenericResponse response = new GenericResponse();
-            response = await _cotizacionRepositorio.GetTest();
+
+
+            return response;
+        }
+
+        [HttpGet]
+        //[Route("{id:int}/InvoiceSend")]
+        public async Task<GenericResponse> CalcularMontoPagar(int destino_Id, int cantidadAdultos, int cantidadMenoresEdad)
+        //public async Task<GenericResponse> Post(int inte)
+        {
+            GenericResponse response = new GenericResponse();
+
+
+            return response;
+        }
+
+        [HttpGet]
+        public async Task<GenericResponse> CalcularMontoPagarDescuento(int destino_Id, int cantidadAdultos, int cantidadMenoresEdad)
+        {
+            GenericResponse response = new GenericResponse();
 
 
             return response;

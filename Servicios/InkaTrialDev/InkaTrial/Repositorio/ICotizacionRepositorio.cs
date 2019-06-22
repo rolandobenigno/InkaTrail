@@ -13,7 +13,11 @@ namespace Repositorio
         Task<GenericResponse> CreateCotizacion(Cotizacion cotizacion);
         Task<GenericResponse> DeleteCotizacion(int cotizacion_id);
         Task<GenericResponse> Cotizacion(Cotizacion cotizacion);
-        Task<GenericResponse> GetTest();
+
+        Task<GenericResponse> CalcularMontoPagar(int destino_Id, int cantidadAdultos, int cantidadMenoresEdad);
+
+        Task<GenericResponse> CalcularMontoPagarDescuento(int destino_Id, int cantidadAdultos, int cantidadMenoresEdad);
+
 
     }
 }

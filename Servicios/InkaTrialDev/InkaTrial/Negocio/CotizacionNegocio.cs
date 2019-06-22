@@ -11,6 +11,25 @@ namespace Negocio
 {
     public class CotizacionNegocio : ICotizacionRepositorio
     {
+
+        public async Task<GenericResponse> CalcularMontoPagar(int destino_Id, int cantidadAdultos, int cantidadMenoresEdad)
+        {
+            GenericResponse response = new GenericResponse();
+            double precioBase = 60D;
+
+
+
+
+            return response;
+        }
+
+        public async Task<GenericResponse> CalcularMontoPagarDescuento(int destino_Id, int cantidadAdultos, int cantidadMenoresEdad)
+        {
+            GenericResponse response = new GenericResponse();
+
+            return response;
+        }
+
         public Task<GenericResponse> Cotizacion(Cotizacion cotizacion)
         {
             throw new NotImplementedException();
@@ -26,13 +45,6 @@ namespace Negocio
             throw new NotImplementedException();
         }
 
-        public async Task<GenericResponse> GetTest()
-        {
-            GenericResponse response = new GenericResponse();
-            response.messageResponse = "Bienvenido";
-
-
-            return response;
-        }
+       
     }
 }
