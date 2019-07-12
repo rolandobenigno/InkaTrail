@@ -1,6 +1,9 @@
 package com.proyecto.inkatrail.rest;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.proyecto.inkatrail.entidades.Reserva;
+import com.proyecto.inkatrail.entidades.Tarjeta;
+import com.proyecto.inkatrail.jms.JmsProducer;
 import com.proyecto.inkatrail.negocio.Negocio;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -68,5 +71,23 @@ public class ReservaController {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Lo sentimos no se pudo encontrar la reserva");
         }
         return p;
+    }
+
+    @Autowired
+    private JmsProducer jmsProducer;
+
+    @PostMapping("/enviarmov")
+    public Tarjeta enviar(@RequestBody Tarjeta tarjeta){
+        //de objeto json
+        ObjectMapper mapper = new ObjectMapper();
+        String jSonString;
+        try {
+            jSonString = mapper.writeValueAsString(tarjeta);
+            jmsProducer.send(jSonString);
+        }catch (Exception e){
+            e.printStackTrace();
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Transaccion no procesada");
+        }
+        return tarjeta;
     }
 }
