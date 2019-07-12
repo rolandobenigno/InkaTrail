@@ -1,30 +1,34 @@
-2019-07-11 17:30:11,809 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting InkatrailApplication on RBENIGNOW10 with PID 2888 (started by RBenigno in C:\Users\rolan\OneDrive - Universidad Peruana de Ciencias\CICLO 2019-01\IS213-1901-D41B Desarrollo para Sistemas Distribuidos\Proyecto InkaTrail\GitHub\InkaTrail\Servicios\inkatrail)
-2019-07-11 17:30:11,821 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
-2019-07-11 17:30:11,822 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-07-11 17:30:11,935 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2019-07-11 17:30:11,935 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2019-07-11 17:30:13,376 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-11 17:30:13,457 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 71ms. Found 1 repository interfaces.
-2019-07-11 17:30:14,082 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8065abfb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-11 17:30:14,476 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
-2019-07-11 17:30:14,498 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
-2019-07-11 17:30:14,511 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
-2019-07-11 17:30:14,511 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-11 17:30:14,704 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
-2019-07-11 17:30:14,706 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2770 ms
-2019-07-11 17:30:14,878 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
-2019-07-11 17:30:15,955 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
-2019-07-11 17:30:16,031 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+2019-07-12 10:40:57,080 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting InkatrailApplication on RBENIGNOW10 with PID 18584 (started by RBenigno in C:\Users\rolan\OneDrive - Universidad Peruana de Ciencias\CICLO 2019-01\IS213-1901-D41B Desarrollo para Sistemas Distribuidos\Proyecto InkaTrail\GitHub\InkaTrail\Servicios\inkatrail)
+2019-07-12 10:40:57,091 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-12 10:40:57,093 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-12 10:40:57,185 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-12 10:40:57,185 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-12 10:40:59,276 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-12 10:40:59,405 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 114ms. Found 1 repository interfaces.
+2019-07-12 10:41:00,125 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9c16e579] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-12 10:41:00,647 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2019-07-12 10:41:00,672 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-12 10:41:00,684 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2019-07-12 10:41:00,685 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-12 10:41:00,869 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-07-12 10:41:00,871 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3685 ms
+2019-07-12 10:41:01,110 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2019-07-12 10:41:02,178 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2019-07-12 10:41:02,236 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2019-07-11 17:30:16,191 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.3.10.Final}
-2019-07-11 17:30:16,193 INFO org.hibernate.cfg.Environment [restartedMain] HHH000206: hibernate.properties not found
-2019-07-11 17:30:16,345 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-07-11 17:30:16,503 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2019-07-11 17:30:17,252 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-07-11 17:30:17,292 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
-2019-07-11 17:30:17,799 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-11 17:30:17,838 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-07-11 17:30:18,097 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
-2019-07-11 17:30:18,120 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
-2019-07-11 17:30:18,124 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started InkatrailApplication in 7.285 seconds (JVM running for 10.035)
+2019-07-12 10:41:02,325 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-12 10:41:02,328 INFO org.hibernate.cfg.Environment [restartedMain] HHH000206: hibernate.properties not found
+2019-07-12 10:41:02,514 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-12 10:41:02,656 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-07-12 10:41:03,327 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-12 10:41:03,374 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2019-07-12 10:41:03,865 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-12 10:41:03,911 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-12 10:41:04,209 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2019-07-12 10:41:04,234 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-12 10:41:04,238 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started InkatrailApplication in 8.058 seconds (JVM running for 10.675)
+2019-07-12 10:41:17,110 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-12 10:41:17,110 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-07-12 10:41:17,124 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 13 ms
+2019-07-12 10:41:17,278 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-1] HHH000397: Using ASTQueryTranslatorFactory
