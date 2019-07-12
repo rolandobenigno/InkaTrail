@@ -1,5 +1,6 @@
 package com.upc.curso.jms;
 
+import com.upc.curso.entidades.Tarjeta;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
@@ -20,10 +21,10 @@ public class JmsOyente {
 		//mensajeJSON a Objeto Auto
 		ObjectMapper mapper = new ObjectMapper();
 		try {
-			Auto auto =  mapper.readValue(mensajeJson, Auto.class);
-			auto.setRespuesta("Registrar a Tabla");
+			Tarjeta tarjeta =  mapper.readValue(mensajeJson, Tarjeta.class);
+			tarjeta.setRespuesta("Registrar a Tabla");
 			System.out.println(mensajeJson);
-			Auto respuesta = negocio.grabar(auto);//registra en la base de  datos
+			Tarjeta respuesta = negocio.grabar(tarjeta);//registra en la base de  datos
 			if (respuesta==null) {
 				System.out.println("No se pudo registrar");
 		    }	
