@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="TP_AUTO")
+@Table(name="TP_PAYPAL")
 public class Auto implements Serializable {
 
 	private static final long serialVersionUID = 1L;
