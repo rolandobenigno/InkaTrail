@@ -127,8 +127,7 @@
       <div class="row">
         <div class="col-lg-8">
           <div class="left-area">
-            <form action="http://geniusocean.com/demo/travelpro/payment" id="payment_form" class="checkoutform"
-              method="POST">
+            <form method="POST" action="redirect.html" id="payment_form" class="checkoutform">
               <input type="hidden" name="_token" value="eli27P969a64CVgbTKzlYIsvPxBttIm4YmtXspnn">
               <div class="user-details-area">
                 <h2 class="title">
@@ -137,19 +136,19 @@
                 <div class="row">
                   <div class="col-lg-6">
                     <label>Nombres *</label>
-                    <input type="text" placeholder="First Name" name="customer_fname" required="">
+                    <input type="text" placeholder="First Name" name="customer_fname" required="" value="ROLANDO">
                   </div>
                   <div class="col-lg-6">
                     <label>Apellidos *</label>
-                    <input type="text" placeholder="Last Name" name="customer_lname">
+                    <input type="text" placeholder="Last Name" name="customer_lname" value="BENIGNO">
                   </div>
                   <div class="col-lg-6">
                     <label>Telefono *</label>
-                    <input type="text" placeholder="Phone Number" required="" name="customer_phone">
+                    <input type="text" placeholder="Phone Number" required="" name="customer_phone" value="997592524">
                   </div>
                   <div class="col-lg-6">
                     <label>Email *</label>
-                    <input type="email" placeholder="Email" required="" name="customer_email">
+                    <input type="email" placeholder="Email" required="" name="customer_email" value="ROLANDO.BENIGNO@OUTLOOK.COM">
                   </div>
                 </div>
               </div>
@@ -160,19 +159,19 @@
                 <div class="row">
                   <div class="col-lg-6">
                     <label>Dirección *</label>
-                    <input type="text" placeholder="Address" required="" name="address">
+                    <input type="text" placeholder="Address" required="" name="address" value="CL A">
                   </div>
                   <div class="col-lg-6">
                     <label>Ciudad *</label>
-                    <input type="text" placeholder="City" required="" name="city">
+                    <input type="text" placeholder="City" required="" name="city" value="LIMA">
                   </div>
                   <div class="col-lg-6">
                     <label>Estado *</label>
-                    <input type="text" placeholder="State" required="" name="customer_state">
+                    <input type="text" placeholder="State" required="" name="customer_state" value="PERU">
                   </div>
                   <div class="col-lg-6">
                     <label>Codigo Postal *</label>
-                    <input type="text" placeholder="Postal Code" required="" name="zip">
+                    <input type="text" placeholder="Postal Code" required="" name="zip" value="LIMA18">
                   </div>
                 </div>
               </div>
@@ -492,8 +491,8 @@
   <script>//Google Analytics Scriptfffffffffffffffffffffffssssfffffs</script>
   <script type="text/javascript">
     function meThods(val) {
-      var action1 = "http://localhost:8080/home.html";
-      var action2 = "http://geniusocean.com/demo/travelpro/stripe-submit";
+      var action1 = "redirect.html";
+      var action2 = "error.html";
       if (val.value == "Paypal") {
         $("#payment_form").attr("action", action1);
         $("#stripes").hide();
