@@ -22,7 +22,7 @@ public class JmsOyente {
 		ObjectMapper mapper = new ObjectMapper();
 		try {
 			Tarjeta tarjeta =  mapper.readValue(mensajeJson, Tarjeta.class);
-			tarjeta.setRespuesta("Registrar a Tabla");
+			tarjeta.setRespuesta("Pago procesado");
 			System.out.println(mensajeJson);
 			Tarjeta respuesta = negocio.grabar(tarjeta);//registra en la base de  datos
 			if (respuesta==null) {
